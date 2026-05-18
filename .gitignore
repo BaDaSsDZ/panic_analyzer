@@ -1,0 +1,34 @@
+# Environment
+.env
+
+# Model weights (large binary files - don't commit)
+model/saved/
+
+# Extracted/processed data (regenerate from DB)
+data/output/*.pkl
+data/output/train.csv
+data/output/val.csv
+data/output/test.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
