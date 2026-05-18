@@ -1,0 +1,24 @@
+# Core ML - works on Windows/Mac/Linux
+torch>=2.2.0
+transformers>=4.40.0
+datasets>=2.19.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+accelerate>=0.30.0
+
+# Database
+psycopg2-binary>=2.9.9
+SQLAlchemy>=2.0.0
+
+# API serving
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+httpx>=0.27.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+joblib>=1.4.0

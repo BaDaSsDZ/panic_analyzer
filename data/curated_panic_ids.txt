@@ -1,0 +1,10 @@
+# Curated panic IDs for CASI AI training.
+# These are panics where the tags were verified as correct by a senior operator or supervisor.
+# Add one panic ID per line. Inline comments with # are allowed.
+# The more quality examples here, the better the model trains.
+
+# Seed set — verified correct, analyzed in docs/panic-analysis.md
+286965
+286926
+286916
+286655
