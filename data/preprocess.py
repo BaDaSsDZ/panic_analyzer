@@ -94,12 +94,23 @@ def build_label_matrix(panics_df, tags_df):
 
 
 def split_data(texts, labels, val_split=0.1, test_split=0.1, random_state=42):
-    """Stratified-ish split. Falls back to random if multi-label stratification fails."""
+    """
+    Stratified-ish split. Falls back to using all data for train when the
+    dataset is too small to produce non-empty val/test sets.
+    """
     n = len(texts)
     test_size = int(n * test_split)
     val_size = int(n * val_split)
 
-    # Simple random split (multi-label stratification is complex, random is fine for thousands)
+    # Not enough data to split — use everything for training
+    if test_size == 0 or val_size == 0:
+        log.warning(
+            "Dataset too small to split (%d rows). Using all data for train; "
+            "val and test will be copies of train. Add more panics for real evaluation.",
+            n
+        )
+        return texts, labels, texts, labels, texts, labels
+
     indices = np.arange(n)
     np.random.seed(random_state)
     np.random.shuffle(indices)
