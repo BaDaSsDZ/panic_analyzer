@@ -1,0 +1,971 @@
+{
+  "classes": [
+    "5400ee44-e271-4546-8666-3a30d8aaf30a",
+    "5ca929f1-3906-47d1-b448-342414082c28",
+    "383347be-bdcf-4789-a036-f5e2b667326b",
+    "d966b0e9-3c91-41aa-9df7-796d6f513683",
+    "390a1113-7d00-4002-a6b5-f840e7d4b617",
+    "6d0595f4-ada8-4d29-be39-6222abbaeb25",
+    "ad5dafdc-711f-4095-bed7-4247e9014c8c",
+    "8f6549fd-820d-4c3d-b0cb-9bc70043ddfa",
+    "5dee75cb-f0f2-40a4-a5cd-e7ed5fab3996",
+    "79705c3c-adfe-4fa9-9b63-ae4ca5265b8a",
+    "f6f41212-da83-49ee-ab14-150764165e4f",
+    "28f06d6a-5495-4abe-93cb-b826cf6791e8",
+    "94390427-e887-4f02-bb15-bc68dd9d998b",
+    "1a6878b5-ebe2-4139-aa21-f070a5b34a43",
+    "6cb504bc-af72-4b95-a3f5-d941ece8aab6",
+    "378166d2-d15e-4bf2-a4be-a5cc005c0ed8",
+    "92e34978-a71e-4b83-9d98-fe34626393fe",
+    "1ef09b47-acb9-4629-9d55-736689c184c5",
+    "b5b7dcae-9da3-4f90-ae3b-b511a9afc99c",
+    "b79cf76f-743c-4406-bb69-3a2899bece93",
+    "1eb18037-1de5-4ed9-9a63-196bff33ea59",
+    "52a67c31-1457-4e5f-9143-49f6addec000",
+    "502514fa-ed5c-4d89-b5ef-fa23db01950b",
+    "b618a42e-44d3-4d06-826d-93983c3777ad",
+    "0f797aa2-7a63-449e-a644-082a89745a7c",
+    "ee5a592b-8a6a-4d41-898b-0620ae8b39fc",
+    "d17cb7ef-651e-4706-85df-e242b1b7959a",
+    "0cd2e163-e084-43cd-a03b-9f13df259fee",
+    "2e5503ce-7a2f-409f-bffa-2782311aac88",
+    "dddad889-9db4-4531-b8cc-a916de5fa073",
+    "befdf3cd-6e0c-4a60-9413-5381969ad0a8",
+    "d14cb39b-03d9-4a92-89b3-181ad33dec1c",
+    "62912ec6-848f-4b62-8ec9-ed6e6107e407",
+    "727ee91c-5d4e-4939-b090-9785f30c2ed8",
+    "fbedac7d-e04d-4bd4-8606-a59700571812",
+    "e4c71f28-2349-455a-8b5d-613809f0393b",
+    "a243b25b-a93f-49a9-9ccf-dfc22cfe1c88",
+    "ba836a40-9f3a-4dbe-94e1-a716ceb8f11b",
+    "fde69b30-ace1-463e-9358-3c29298589ef",
+    "7a33b541-f5f7-45da-b844-1850c81db2a6",
+    "9cd62a59-0236-4462-b6d7-22eead3f1b1e",
+    "ef8cd225-042d-4316-abc8-1fb5d001412d",
+    "1cb9d448-dff0-4b86-8a24-c083cb5f6918",
+    "5fafcd7a-6e86-41c3-806d-1ddc0b0d730e",
+    "d2382560-7127-4ab0-ac83-679dc89d3b47",
+    "0b4acef0-a358-4afd-928b-839304331c0d",
+    "36ed7b5a-9854-4d93-8b24-bd339b756c69",
+    "c1a0328a-62a3-4adb-ba65-ebfce752d85b",
+    "28b19405-9551-4320-beab-8b806592f327",
+    "8ed65251-3815-4a75-b6e4-ca665c6ff9e0",
+    "ff04aa93-977e-439e-839b-074a3ebbe1a1",
+    "ed0139b7-4554-438b-9897-1ed3af43343f",
+    "8a673124-48de-4e26-b2c0-513fe2abce43",
+    "de7b239c-8ca9-49f7-aff1-1342f4f393e3",
+    "ff9386ed-77bd-4a70-ba15-05ec739f58d0",
+    "d825754a-05d3-4cbd-be45-9b6912b76ab2",
+    "672097be-7465-4ced-a7c1-84b8f13f03ea",
+    "6300df2e-6398-41a2-953f-23e1731a3e00",
+    "09b2429d-778c-42df-bf62-32a9ed07ccc2",
+    "6f71903d-6407-4d44-9ac8-477f58ad3b61",
+    "91dfb7d5-a188-4e74-85da-ba85dbdb13f4",
+    "6c67b454-c01d-4df3-b6ab-b7870d0bd1f5",
+    "577006f7-e090-42cc-a7af-bc00ca618bde",
+    "f285b0e7-e337-46fc-b793-994c040541bf",
+    "95ce2682-3e5d-4ea9-8699-d99a223f2d7c",
+    "b29358ea-1ca2-4b00-bd4d-3f4025029b11",
+    "eaf82b32-db2f-4b50-bccd-f99703333eb2",
+    "787323f8-1a84-4b66-8263-67986196da21",
+    "a5cbef39-a2c9-4b86-98e6-8e9756c43a75",
+    "2483133d-341f-47be-bb02-700fc7e90c2d",
+    "84d4a074-584a-447d-8a85-e9bab83b7055",
+    "63d24108-6374-4f70-b3b9-dd6e5cad0155",
+    "56bee189-d3c3-46b3-b221-8cbc06205458",
+    "1e47681b-f12d-4574-b5ce-a96b7e2c782b",
+    "dfc844d5-97ea-4cb5-8346-61b1db51a69e",
+    "0404fe13-b79b-4951-af1a-db30e204f366",
+    "05151d11-187e-4aa9-8f3e-b9ca28fe6c28",
+    "2a0a3320-d88f-4def-94b6-c8ad22d0de3a",
+    "eeae20fb-8743-48bc-a928-b73d00f2c65d",
+    "862993f8-d6d8-49bc-a1fc-645eaddbe5dc",
+    "6b8ae689-bddd-4eb4-ae20-88adf4e5224a",
+    "297ac3ee-1d3f-411f-87de-a96d97b63e95",
+    "6895e71f-33be-416d-87ff-0a8fa777d27a",
+    "dad47cfa-232f-4018-88c9-395d28c434a7",
+    "206bf12e-626b-4f49-8fbb-dba07be95b12",
+    "a77e0532-f283-4701-b9e9-a1a14dd810fa",
+    "a3ca942d-1194-4b5e-a413-a2d691676027",
+    "cfed8088-e741-447c-8fc3-dacf1e505ce4",
+    "8f49b9ee-b19c-43c9-873b-b2f1c268ee8e",
+    "9625d663-243e-4ddb-9373-5714f28d272d",
+    "ecc4e32f-1d2a-4e4a-b4a7-6d8767486894",
+    "63806431-e7f4-4dd5-8602-d024d239b680",
+    "2b6079fe-546b-422b-a004-aede0940f3e7",
+    "d1ac3ea6-61e8-4717-9843-45613953c63a",
+    "75292d0b-e6c9-4364-971f-b9af0fe40567",
+    "3df9e76e-2573-405f-84fc-e9cf4198bfed",
+    "0d5a3b8e-8e2c-4980-8abf-f91a6e4df4d4",
+    "2d9d9c9f-7b95-4005-ae78-6add316dd62a",
+    "b2feb38a-b1fa-4ecd-9a46-9c6029913bcd",
+    "ae43660a-00de-457d-9e15-c0fdcad477ff",
+    "3952910d-c6e0-4786-b1e7-9aa86854e520",
+    "93dde6af-4f46-4426-bf0a-84329a6f8247",
+    "3cba7f10-d900-48d0-bcb7-ba21d2a8542b",
+    "19ce51b9-3894-4da5-97f4-f118964d34d8",
+    "476707cc-0127-484d-b4d5-146f043944e1",
+    "f3d04689-8dbe-456b-b3e7-1ee1d12b7f4f",
+    "f61748af-188a-43cf-932c-7f408404830e",
+    "b60a520c-d60c-4cae-86c9-ec6ddd07938c",
+    "05e99822-1b0f-4ed5-b28e-181196fef1c7",
+    "9c317b13-b7c3-49b7-a773-e3f0ef0d7130",
+    "61ea4c59-a7ea-4ebd-8dae-809f59f5248c",
+    "fb6b7cbc-c07d-43dc-95d3-caee178dc301",
+    "58281675-7d94-4c43-99ee-abf86be677f8",
+    "099854ef-81b2-4214-b921-f73f09393e8e",
+    "5eb954c8-fcc3-4ea2-8504-eede372869a7",
+    "f0fa802f-7434-472a-943f-adad5e20ee7d",
+    "7347656c-81a7-4b6d-9f07-0cb85210c4e7",
+    "e1d8067e-9c72-4b2b-8f1c-50b02e088a38",
+    "7da6852b-b56d-4764-996b-a77ee8e3e5a1",
+    "8b7145e2-146e-451b-b892-9536e2a96c13",
+    "605741ed-8c8f-477f-8deb-2ddd0373e75e",
+    "ce70d2ca-576d-4b48-8020-726faea924f0",
+    "40302781-9c3a-4516-ac21-65cabccb6489",
+    "61facc74-abf1-425c-9d92-b2739ce6507d",
+    "302bbe94-9da0-4537-aabf-68ef762961e5",
+    "b427d011-8f41-4779-8264-8aee6c925bde",
+    "49db1ca6-2a0d-4e0a-a4dc-0342085b2489",
+    "a4a1a2b8-2b1b-4651-b821-6092ed1c78d6",
+    "f0895fe0-8b10-491d-b28a-32739adf404d",
+    "f2bb3460-007d-4d08-bb5c-7b1a8584771c",
+    "d77ca78e-dfb4-40c8-9794-5244720f3432",
+    "f8616ec4-27bf-4eb2-8009-61a5dc808a1b",
+    "5fad7beb-8c49-4ff2-a78a-e750a22d6d85",
+    "03830150-c873-453a-91cf-f01018697723",
+    "8b39c633-0cd3-4d30-871c-efa9c5055c4c",
+    "6f4ea62c-8dfe-4118-9691-a7f74b9bc0ae",
+    "fdabd196-3754-46ff-a901-4619d86fe3cd",
+    "531295c3-7254-437a-9cbd-c4fb91b5a645",
+    "93149e1e-bb8c-45b0-ab0e-17c0ee88c43f",
+    "f049588c-d7f0-42aa-b9cc-3bf0c40da922",
+    "ae425c69-e663-4214-b082-142d0d2e71e6",
+    "ee0bdf88-d8b1-4a2f-9f5f-0b6363ae15f6",
+    "94dc1dca-09cb-483c-9842-f6c9749e3078",
+    "7b9c3441-2b31-4c64-89cd-12fb2acc1221",
+    "6470005f-8f50-4e9d-ba46-36a2f6729aca",
+    "ed9181fa-90d9-4ea0-b291-d313c298d8d9",
+    "35fa9ecb-503c-4624-8b1e-483fe3aeb80b",
+    "65216b41-98c2-4711-983a-4e94f32545ed",
+    "8b07d772-fe23-450d-b922-37c3d6dc2d10",
+    "d154a382-2281-470f-a192-2c2ddbfe8236",
+    "63dd1b9b-338f-42b7-af29-acb3eb306904",
+    "8ec869c6-2183-410c-94fb-6242d255b606",
+    "24b75375-4bad-48dd-8717-11212efce82f",
+    "7b35f22d-3d7b-4dc4-8cec-4c7af2b48d06",
+    "537236b0-1b5f-436d-9cba-7aa7cfdbf252",
+    "bc0cb42b-69bf-4e65-ab98-8b2c61d5f022",
+    "d8d1386f-d420-4307-ad60-6b320bb867db",
+    "2343687a-54b3-43d4-95ad-09e2466e5c8e",
+    "ef98b3f9-1460-4234-a6b1-dda55063de31",
+    "ff0c6128-eef9-4969-8676-3e05c9e7ec9d",
+    "3a83a4a7-eb76-49e0-a535-08e7b4b83b72",
+    "8662ea62-6129-4951-b253-96a7a6e8dd26",
+    "fd0bcf1a-cd90-4940-88bc-71d8fdac1c04",
+    "8e44da57-8e60-494f-bede-c0f2c7e819ae",
+    "7989b73d-6145-435f-99cb-3add4575ba6f",
+    "59c573ed-93a0-40fd-99f3-978222e2bf4d",
+    "0fd19ee6-bdb9-4f89-bfe2-2e8428bc0e45",
+    "ac9e0055-deda-42cc-83d9-be1bfb8315ed",
+    "b5c5eb25-6536-4eee-a972-8b3cb591b20b",
+    "69a910ba-bf3b-4f19-b812-1b98cb619d61",
+    "64f87116-c98c-471f-ac70-9d6766e2f757",
+    "ca1745da-d91b-40ec-90d0-6b0d010eb6ac",
+    "e3b3f8a8-8bbb-4aab-95da-e0e725c1a145",
+    "6584545c-1fa3-44e2-aa22-d08dbce7e71d",
+    "4528eb3c-e238-4c7b-b265-75c1558d3b2f",
+    "7fb8c5cb-a72e-46f6-ac38-55255a36cf27",
+    "f677fff8-65d6-40e7-9246-6c0438d5f980",
+    "310d94e4-13ae-4123-b246-faa466e1a78c",
+    "3d561f72-f193-4999-a316-46adc1e2e6b9",
+    "606a7d29-51ca-40ee-b29b-1476e123f696",
+    "98349d2f-7034-4884-901c-62020dfccbfc",
+    "3e85accc-dc19-4dab-a680-684cf33b6015",
+    "860366c0-b219-42e2-8728-e311bd4aba00",
+    "9d402fdf-5159-445d-ae68-6ebc53c0935c",
+    "95000d71-1d06-4b54-8408-78cb85570035",
+    "f17793a7-92a9-48a3-9ec3-63d2e94c03f4",
+    "fa914fef-9a51-4c5c-8851-e9d88c30aa4c",
+    "330b604b-02a0-4695-a86b-c6fddeeccc5d",
+    "81768bc4-5528-485a-b381-1472290bde6c",
+    "f840faf7-8b1d-497f-96d1-f36595d29133",
+    "3a2b49fe-e0a4-4bb2-8a27-32e594b2002a",
+    "965895da-a13b-4151-b273-ae01016792d5",
+    "546f3b6c-384b-4023-a879-59330abfd968"
+  ],
+  "tag_metadata": {
+    "5400ee44-e271-4546-8666-3a30d8aaf30a": {
+      "name": "#AbdominalPain",
+      "controller_advice": "Collect details about the location, intensity, and nature of the pain. Inquire about other associated symptoms or factors, such as vomiting or recent surgeries. Advise the caller to refrain from giving food or liquids to the person experiencing the pain. Based on the severity of symptoms, dispatch EMS for evaluation and potential transport to a medical facility."
+    },
+    "5ca929f1-3906-47d1-b448-342414082c28": {
+      "name": "#AccidentalPress",
+      "controller_advice": "The user accidentally activated a panic. Provide reassurance so that the user is at ease and resolve the panic after confirming the user's security code or last four digits."
+    },
+    "383347be-bdcf-4789-a036-f5e2b667326b": {
+      "name": "#AccountIssue",
+      "controller_advice": "Relating to user account, i.e. amounts outstanding, payments outstanding, account balance,etc.: Refer the user to the in-app support or southafrica@bolt.eu."
+    },
+    "d966b0e9-3c91-41aa-9df7-796d6f513683": {
+      "name": "#AggravatedAssault",
+      "controller_advice": "Assualt with the intent to inflict serious bodily harm: Keep the person calm, instruct them to find a safe place, do not engage. Contact law enforcement."
+    },
+    "390a1113-7d00-4002-a6b5-f840e7d4b617": {
+      "name": "#AggravatedRobbery",
+      "controller_advice": "Robbery with aggravating circumstances:"
+    },
+    "6d0595f4-ada8-4d29-be39-6222abbaeb25": {
+      "name": "#AllergicReaction",
+      "controller_advice": "Determine the severity of the reaction and ask if the person has a known allergy or carries an epinephrine auto-injector (e.g., EpiPen). Instruct the caller to administer the auto-injector if available and guide them on proper usage if needed. Dispatch EMS for immediate medical care and advise the caller to keep the person calm and monitor their condition."
+    },
+    "ad5dafdc-711f-4095-bed7-4247e9014c8c": {
+      "name": "#AmbulanceOnScene",
+      "controller_advice": "The patient may receive oxygen, medications, ECG monitoring, fluid administration or a host of other interventions. If the patient is conscious, treatment options should be discussed with both the patient and family members. EMS will generally transport to the hospital designated by the patient"
+    },
+    "8f6549fd-820d-4c3d-b0cb-9bc70043ddfa": {
+      "name": "#AmbulanceTransportingClient",
+      "controller_advice": "Patient was treated on scene and transported to the nearest hospital for treatment"
+    },
+    "5dee75cb-f0f2-40a4-a5cd-e7ed5fab3996": {
+      "name": "#AnythingElseICanAssistWith?",
+      "controller_advice": "Anything else I can assist you with is a polite way to offer help to someone. If someone indicates they don't need more help, it's best to respect their wishes. However, you can ask if they're sure, in case they're hesitant to ask for help."
+    },
+    "79705c3c-adfe-4fa9-9b63-ae4ca5265b8a": {
+      "name": "#APITesting",
+      "controller_advice": "Client testing API panics. Ask involved parties before resolving the panic."
+    },
+    "f6f41212-da83-49ee-ab14-150764165e4f": {
+      "name": "#AppAbuse",
+      "controller_advice": "The user is abusing the panic button by continuously pressing it for non-emergency situations for which we cannot dispatch armed response."
+    },
+    "28f06d6a-5495-4abe-93cb-b826cf6791e8": {
+      "name": "#AppSupport",
+      "controller_advice": "App related issues, bugs, or FAQ: Refer the user to app support or southafrica@bolt.eu."
+    },
+    "94390427-e887-4f02-bb15-bc68dd9d998b": {
+      "name": "#ArmedRobbery",
+      "controller_advice": "Theft or robbery committed with the use of firearms:Advise the person to comply with the robber's demands for their safety. Remember as much detail as possible. Contact law enforcement."
+    },
+    "1a6878b5-ebe2-4139-aa21-f070a5b34a43": {
+      "name": "#ArrivedAfterCancellation",
+      "controller_advice": "RO arrived but was cancelled while en route to the location."
+    },
+    "6cb504bc-af72-4b95-a3f5-d941ece8aab6": {
+      "name": "#ArrivedAtLocation",
+      "controller_advice": "When the responder arrives at the correct location as given on the dashboard."
+    },
+    "378166d2-d15e-4bf2-a4be-a5cc005c0ed8": {
+      "name": "#Arson",
+      "controller_advice": "Intentional act of setting fire to property:Determine location, advise evacuation if necessary, contact fire department"
+    },
+    "92e34978-a71e-4b83-9d98-fe34626393fe": {
+      "name": "#AttemptedHomeInvasion",
+      "controller_advice": "Attempted to enter a property unauthorized with intent to commit a crime: Remain quiet, do not confront the burglars. Remember as much detail for the police. Call law enforcement."
+    },
+    "1ef09b47-acb9-4629-9d55-736689c184c5": {
+      "name": "#AttemptedMurder",
+      "controller_advice": "Unsuccessful attempt to cause someone's death:Gather information, dispatch emergency services, ensure safety"
+    },
+    "b5b7dcae-9da3-4f90-ae3b-b511a9afc99c": {
+      "name": "#AttemptedSuicide",
+      "controller_advice": "A suicide attempt is when someone harms themselves with any intent to end their life, but they do not die as a result of their actions."
+    },
+    "b79cf76f-743c-4406-bb69-3a2899bece93": {
+      "name": "#AttemptedTheft",
+      "controller_advice": "User trying to steal something but not succeeding"
+    },
+    "1eb18037-1de5-4ed9-9a63-196bff33ea59": {
+      "name": "#AttemtedHijacking",
+      "controller_advice": "to seize possession or control of a vehicle from another person by threat of force: Remain calm, follow the hijacker's instructions for safety. Remember as much detail for the police."
+    },
+    "52a67c31-1457-4e5f-9143-49f6addec000": {
+      "name": "#BeingStalked",
+      "controller_advice": "Persistent unwanted attention or harassment from an individual:Gather information, advise caller to document incidents, report to police"
+    },
+    "502514fa-ed5c-4d89-b5ef-fa23db01950b": {
+      "name": "#BLEButtonIssue",
+      "controller_advice": "Bluetooth button giving problems. Refer the client to the Support Desk for support documentation and submit a ticket."
+    },
+    "b618a42e-44d3-4d06-826d-93983c3777ad": {
+      "name": "#Bleeding",
+      "controller_advice": "Ask the caller to apply direct pressure to the bleeding site using a clean cloth or their hand. Instruct them to elevate the injured area, if possible, and maintain pressure until the bleeding stops or medical help arrives. Dispatch EMS for further assessment and potential transportation to a medical facility."
+    },
+    "0f797aa2-7a63-449e-a644-082a89745a7c": {
+      "name": "#Breakdown",
+      "controller_advice": "Breakdown of a vehicle usually requires Roadside Assistance: Find out if the user requires Armed Response."
+    },
+    "ee5a592b-8a6a-4d41-898b-0620ae8b39fc": {
+      "name": "#BreakIn",
+      "controller_advice": "1. Confirm possible break-in 2. Notify the response company 3. Notify SAPS and get a ref number"
+    },
+    "d17cb7ef-651e-4706-85df-e242b1b7959a": {
+      "name": "#BurglaryForced",
+      "controller_advice": "Unauthorized forced entry into a building with intent to commit an offense:Remain quiet, do not confront the burglars. Remember as much detail for the police. Call law enforcement."
+    },
+    "0cd2e163-e084-43cd-a03b-9f13df259fee": {
+      "name": "#BurglaryUnforced",
+      "controller_advice": "Unauthorized entry (without force) into a building with the intent to commit an offense: Advise the person not to touch anything to preserve evidence. Call law enforcement."
+    },
+    "2e5503ce-7a2f-409f-bffa-2782311aac88": {
+      "name": "#Burns",
+      "controller_advice": "Determine the severity and extent of the burn. Instruct the caller to cool the burn under running water for at least 10 minutes, if possible. Advise against applying ice, creams, or ointments. Dispatch EMS for assessment and further treatment."
+    },
+    "dddad889-9db4-4531-b8cc-a916de5fa073": {
+      "name": "#BusinessRobbery",
+      "controller_advice": "Unauthorized entry into a business property with intent to commit a crime:Instruct the person to stay calm, not to confront the robbers. Remember details. Contact law enforcement."
+    },
+    "befdf3cd-6e0c-4a60-9413-5381969ad0a8": {
+      "name": "#CallCentreMarketing",
+      "controller_advice": "Client heard of CASI through a call centre marketing call."
+    },
+    "d14cb39b-03d9-4a92-89b3-181ad33dec1c": {
+      "name": "#CallNotAnswered",
+      "controller_advice": "The alerter does not answer.: Call again, or try to call the other participants (ride) / emergency contacts."
+    },
+    "62912ec6-848f-4b62-8ec9-ed6e6107e407": {
+      "name": "#CancelledBeforeArrival",
+      "controller_advice": "RO was cancelled before arrival therefore he could have been en route but ended up not finishing the response."
+    },
+    "727ee91c-5d4e-4939-b090-9785f30c2ed8": {
+      "name": "#CancelledBeforeDispatch",
+      "controller_advice": "Panic was cancelled before the partner successfully dispatched a vehicle."
+    },
+    "fbedac7d-e04d-4bd4-8606-a59700571812": {
+      "name": "#CardiacArrest",
+      "controller_advice": "Instruct the caller to immediately start CPR (if trained) and provide clear instructions for performing chest compressions. Dispatch emergency medical services (EMS) to the location and stay on the line to offer guidance and support until help arrives."
+    },
+    "e4c71f28-2349-455a-8b5d-613809f0393b": {
+      "name": "#CellphoneTheft",
+      "controller_advice": "This is a tag for incidents where the cellphone of a victim is taken without their permission with the intent to permanently deprive them of it."
+    },
+    "a243b25b-a93f-49a9-9ccf-dfc22cfe1c88": {
+      "name": "#ChestPain",
+      "controller_advice": "Collect details about the location and characteristics of the chest pain, such as intensity and duration. Instruct the caller to stay calm and avoid exertion. Dispatch EMS to evaluate the situation."
+    },
+    "ba836a40-9f3a-4dbe-94e1-a716ceb8f11b": {
+      "name": "#ChildFound",
+      "controller_advice": "When someone find a child report it to SAPS."
+    },
+    "fde69b30-ace1-463e-9358-3c29298589ef": {
+      "name": "#ChildInvolved",
+      "controller_advice": "When speaking to a child remember to be gentle and reassuring. If the child is the one in trouble then use it to push urgency from our responders."
+    },
+    "7a33b541-f5f7-45da-b844-1850c81db2a6": {
+      "name": "#ChildServices",
+      "controller_advice": "Any panic where children are in danger: Child services should be contacted. They'll need the location, child information and description. Dispatch a Partner and SAPS."
+    },
+    "9cd62a59-0236-4462-b6d7-22eead3f1b1e": {
+      "name": "#Choking",
+      "controller_advice": "Ask the caller if the person can speak or cough. If they are unable to breathe cough or speak, instruct the caller to perform the Heimlich maneuver (abdominal thrusts) if trained. If the person becomes unresponsive, guide the caller to start CPR until EMS arrives."
+    },
+    "ef8cd225-042d-4316-abc8-1fb5d001412d": {
+      "name": "#C-I-T-Heist",
+      "controller_advice": "Cash-in-transit heist involving robbery or theft of money in transit:Gather information, ensure caller's safety, dispatch appropriate authorities"
+    },
+    "1cb9d448-dff0-4b86-8a24-c083cb5f6918": {
+      "name": "#Collision",
+      "controller_advice": "Ensure the user's safety first. Encourage them to document the scene, and call the police if necessary."
+    },
+    "5fafcd7a-6e86-41c3-806d-1ddc0b0d730e": {
+      "name": "#CommercialCrime",
+      "controller_advice": "Criminal activities targeting businesses or involving business operations:Gather details, notify relevant authorities"
+    },
+    "d2382560-7127-4ab0-ac83-679dc89d3b47": {
+      "name": "#CommunityDisruption",
+      "controller_advice": "Community Disruption"
+    },
+    "0b4acef0-a358-4afd-928b-839304331c0d": {
+      "name": "#Deceased",
+      "controller_advice": "Please stay calm and follow my instructions carefully. Please leave everything as is and remain where you are if it's safe, or move to a secure location nearby. We need to preserve the scene for emergency services."
+    },
+    "36ed7b5a-9854-4d93-8b24-bd339b756c69": {
+      "name": "#DelayedETA",
+      "controller_advice": "ETA received very late into the panic. Escalate to partner management and notifiy CASI management."
+    },
+    "c1a0328a-62a3-4adb-ba65-ebfce752d85b": {
+      "name": "#DevTesting",
+      "controller_advice": "This occurrence/incident is a test. The developer is probably troubleshooting something."
+    },
+    "28b19405-9551-4320-beab-8b806592f327": {
+      "name": "#Diabetic",
+      "controller_advice": "This tag must be used for clients who are reporting diabetic medical emergencies"
+    },
+    "8ed65251-3815-4a75-b6e4-ca665c6ff9e0": {
+      "name": "#DifficultyBreathing",
+      "controller_advice": "Gather information about the person's condition, such as any known respiratory conditions or triggers. Instruct the caller to stay calm and in a well-ventilated area. Dispatch EMS for further assessment and treatment."
+    },
+    "ff04aa93-977e-439e-839b-074a3ebbe1a1": {
+      "name": "#Disturbance",
+      "controller_advice": "When a client is complaining about people making noise or being disruptive use this tag as long as no violence or vandalism occurs."
+    },
+    "ed0139b7-4554-438b-9897-1ed3af43343f": {
+      "name": "#DomesticAbuse",
+      "controller_advice": "Violence or aggression that occurs in the domestic setting:Ensure person is safe. Listen and provide support. Advise them to contact local law enforcement and a local domestic violence hotline."
+    },
+    "8a673124-48de-4e26-b2c0-513fe2abce43": {
+      "name": "#DomesticDispute",
+      "controller_advice": ""
+    },
+    "de7b239c-8ca9-49f7-aff1-1342f4f393e3": {
+      "name": "#Drinking&Driving",
+      "controller_advice": "Operating a vehicle while under the influence of alcohol or drugs:Gather details, advise against driving, inform police"
+    },
+    "ff9386ed-77bd-4a70-ba15-05ec739f58d0": {
+      "name": "#DriverAttemptingRobbery",
+      "controller_advice": "Advise the rider to prioritize their safety, remain calm, and avoid escalating the situation. Recommend reporting the incident to southafrica@bolt.eu or through the e-hailing app and dispatch SAPS immediately."
+    },
+    "d825754a-05d3-4cbd-be45-9b6912b76ab2": {
+      "name": "#DriverIssue",
+      "controller_advice": "Problems with the driver's behavior, driving style, the driver did not show up, or other issues: Encourage the user to report the issue to Bolt. Notify law enforcement if necessary."
+    },
+    "672097be-7465-4ced-a7c1-84b8f13f03ea": {
+      "name": "#DriverNotArrived",
+      "controller_advice": "The e-hailing driver did not arrive at the pickup location after accepting the ride."
+    },
+    "6300df2e-6398-41a2-953f-23e1731a3e00": {
+      "name": "#DropOff",
+      "controller_advice": "Client to be dropped off at the end location of the Ride."
+    },
+    "09b2429d-778c-42df-bf62-32a9ed07ccc2": {
+      "name": "#Drowning",
+      "controller_advice": "Ask the caller if the person is still in the water or has been removed. If the person is unresponsive and not breathing, guide the caller to initiate CPR immediately."
+    },
+    "6f71903d-6407-4d44-9ac8-477f58ad3b61": {
+      "name": "#DrugCrime",
+      "controller_advice": "Activities related to the production, distribution, and consumption of illegal substances:Do not engage or intervene. Remember as many details for a police report. Contact law enforcement."
+    },
+    "91dfb7d5-a188-4e74-85da-ba85dbdb13f4": {
+      "name": "#Drugs",
+      "controller_advice": "Any substance (other than food) that is used to prevent or diagnose treat or relieve symptoms - Seek Medical assistance"
+    },
+    "6c67b454-c01d-4df3-b6ab-b7870d0bd1f5": {
+      "name": "#DuplicatePanic",
+      "controller_advice": "System duplicated a panic.: Resolve the last panic that came in."
+    },
+    "577006f7-e090-42cc-a7af-bc00ca618bde": {
+      "name": "#Dynamicformcomplete",
+      "controller_advice": "This tag captures the completion event while logging the user's geographic location and verified proof of presence to ensure submission authenticity."
+    },
+    "f285b0e7-e337-46fc-b793-994c040541bf": {
+      "name": "#ElectricFenceAlarm",
+      "controller_advice": "Validate the alarm. Contact the user if possible. Dispatch a response team or notify law enforcement if needed."
+    },
+    "95ce2682-3e5d-4ea9-8699-d99a223f2d7c": {
+      "name": "#ElectricShock",
+      "controller_advice": "Ensure the caller's safety by asking them to disconnect the power source if possible or to move away from the electrical hazard. Instruct the caller not to touch the person if they are still in contact with the electrical source."
+    },
+    "b29358ea-1ca2-4b00-bd4d-3f4025029b11": {
+      "name": "#Epilepsy",
+      "controller_advice": "Neurological condition involving the brain that makes people more susceptible to having recurrent unprovoked seizures. Gently guide the person to the ground or a soft surface if possible. Support their head to prevent injury."
+    },
+    "eaf82b32-db2f-4b50-bccd-f99703333eb2": {
+      "name": "#FeelingUnsafe",
+      "controller_advice": "Perception of being in a dangerous or threatening situation:Provide reassurance, advise caller to seek safety, involve authorities"
+    },
+    "787323f8-1a84-4b66-8263-67986196da21": {
+      "name": "#FireAlarm",
+      "controller_advice": "Validate the alarm. Contact the user if possible. Notify fire department immediately if validation is positive."
+    },
+    "a5cbef39-a2c9-4b86-98e6-8e9756c43a75": {
+      "name": "#FireNaturalDisaster",
+      "controller_advice": "Uncontrolled fire or natural catastrophes such as floods, earthquakes:Leave the area safely, if possible. Follow local authorities' instructions. Contact local emergency services."
+    },
+    "2483133d-341f-47be-bb02-700fc7e90c2d": {
+      "name": "#ForcedEntryHouseRobbery",
+      "controller_advice": "Unauthorized forced entry into a residential property with intent to commit a crime: Remain quiet, do not confront the robbers. Remember as much detail for the police. Call law enforcement."
+    },
+    "84d4a074-584a-447d-8a85-e9bab83b7055": {
+      "name": "#Fracture",
+      "controller_advice": "Instruct the caller to immobilize the injured area by supporting it with a splint, if available, or by keeping it as still as possible. Dispatch EMS for evaluation, treatment, and potential transport to a medical facility."
+    },
+    "63d24108-6374-4f70-b3b9-dd6e5cad0155": {
+      "name": "#Fraud",
+      "controller_advice": "Deception intended for personal gain or to cause a loss to another party:Do not share any further personal or financial information. Document all details. Contact law enforcement and bank if necessary."
+    },
+    "56bee189-d3c3-46b3-b221-8cbc06205458": {
+      "name": "#GangFights",
+      "controller_advice": "Where a group of gangs are fighting in the street, Get response out as well as SAPS."
+    },
+    "1e47681b-f12d-4574-b5ce-a96b7e2c782b": {
+      "name": "#GangRelated",
+      "controller_advice": "Encourage the reporter to stay safe, avoid direct confrontation, and provide critical information without compromising their security."
+    },
+    "dfc844d5-97ea-4cb5-8346-61b1db51a69e": {
+      "name": "#GBH",
+      "controller_advice": "Serious physical attack likely to cause severe injury: Ensure the person is safe. If possible apply first aid. Contact medical services and law enforcement."
+    },
+    "0404fe13-b79b-4951-af1a-db30e204f366": {
+      "name": "#GBV",
+      "controller_advice": "This tag is used to flag panics that reference gender-based violence including physical emotional sexual or psychological abuse directed at individuals based on their gender."
+    },
+    "05151d11-187e-4aa9-8f3e-b9ca28fe6c28": {
+      "name": "#GoodNewsStory",
+      "controller_advice": "Capture as much details about the incident as possible and ask the user to rate the panic and leave a comment."
+    },
+    "2a0a3320-d88f-4def-94b6-c8ad22d0de3a": {
+      "name": "#GroupFights",
+      "controller_advice": "Fight between more than 2 people: Guide the user to not confront any of the people. Go to a safe place if possible."
+    },
+    "eeae20fb-8743-48bc-a928-b73d00f2c65d": {
+      "name": "#HeadInjury",
+      "controller_advice": "Inquire about the mechanism of injury and the person's level of consciousness. Instruct the caller to monitor the person closely for changes in their condition, advise against moving them unnecessarily, and keep them still until EMS arrives."
+    },
+    "862993f8-d6d8-49bc-a1fc-645eaddbe5dc": {
+      "name": "#Heatstroke",
+      "controller_advice": "Instruct the caller to move the person to a cooler environment, remove excess clothing, and cool them down using cool water or wet towels."
+    },
+    "6b8ae689-bddd-4eb4-ae20-88adf4e5224a": {
+      "name": "#Hijacking",
+      "controller_advice": "Forcibly taking control of a vehicle:Remain calm, follow the hijacker's instructions for safety. Remember as much detail for the police."
+    },
+    "297ac3ee-1d3f-411f-87de-a96d97b63e95": {
+      "name": "#HomeInvasion",
+      "controller_advice": "Unauthorized entry with intent to commit a crime, often theft:Remain quiet, do not confront the burglars. Remember as much detail for the police. Call law enforcement."
+    },
+    "6895e71f-33be-416d-87ff-0a8fa777d27a": {
+      "name": "#Homicide",
+      "controller_advice": "Unlawful killing of another human being:Ensure the person is safe. If possible, apply first aid. Contact medical services and law enforcement."
+    },
+    "dad47cfa-232f-4018-88c9-395d28c434a7": {
+      "name": "#HouseFire",
+      "controller_advice": "Dispatched armed response Fire department and Medical assistance to the location - Identify any injuries due to fire"
+    },
+    "206bf12e-626b-4f49-8fbb-dba07be95b12": {
+      "name": "#Hypothermia",
+      "controller_advice": "Instruct the caller to move the person to a warm environment and remove wet clothing. Encourage them to wrap the person in warm blankets or clothing, provide warm liquids if the person is conscious."
+    },
+    "a77e0532-f283-4701-b9e9-a1a14dd810fa": {
+      "name": "#IllegalFirearmPossession",
+      "controller_advice": "Possessing a firearm without the necessary legal permissions or licenses:Do not confront the person with the firearm. Try to remember details. Contact law enforcement."
+    },
+    "a3ca942d-1194-4b5e-a413-a2d691676027": {
+      "name": "#IllegalStrike",
+      "controller_advice": "A strike that has become out of hand resulting in sabotage, damage of assets, or Arson: Remain calm and tell the alerter to stay clear of the striking group and seek shelter in a closed-off premises. Dispatch SAPS"
+    },
+    "cfed8088-e741-447c-8fc3-dacf1e505ce4": {
+      "name": "#InaccurateLocation",
+      "controller_advice": "Location provided for the Dispatched Panic is inaccurate. Report the incident to management to follow up with the client."
+    },
+    "8f49b9ee-b19c-43c9-873b-b2f1c268ee8e": {
+      "name": "#Injury",
+      "controller_advice": "Inquire about the mechanism of injury (how it happened) and identify the specific location and severity of the trauma. Assess the person's level of consciousness and check for life-threatening symptoms like heavy bleeding or deformity."
+    },
+    "9625d663-243e-4ddb-9373-5714f28d272d": {
+      "name": "#Intimidation",
+      "controller_advice": "Behavior intended to frighten or coerce someone:Gather details, advise caller to ensure personal safety, report to police"
+    },
+    "ecc4e32f-1d2a-4e4a-b4a7-6d8767486894": {
+      "name": "#IntrusionAlarm",
+      "controller_advice": "Validate the alarm. Contact the user if possible. Dispatch a response team or notify law enforcement if needed."
+    },
+    "63806431-e7f4-4dd5-8602-d024d239b680": {
+      "name": "#IOTDeviceIssue",
+      "controller_advice": "Personal Tracker/ IOT Device/ Standalone Device giving problems. Refer the client to the Support Desk."
+    },
+    "2b6079fe-546b-422b-a004-aede0940f3e7": {
+      "name": "#Kidnapping",
+      "controller_advice": "Unlawful carrying away (asportation) and confinement of a person against their will: Stay calm. Gather as much information as possible. Contact law enforcement immediately."
+    },
+    "d1ac3ea6-61e8-4717-9843-45613953c63a": {
+      "name": "#Labour",
+      "controller_advice": "Labour is divided into 3 stages. For first-time mothers, labour takes around 12 to 14 hours. Encourage her to move around and get into the position she feels most comfortable in. - Dispatched medical assistance to location"
+    },
+    "75292d0b-e6c9-4364-971f-b9af0fe40567": {
+      "name": "#LastFourDigitsConfirmed",
+      "controller_advice": "Confirming the last four digits of a user's cellphone number or their passphrase is essential"
+    },
+    "3df9e76e-2573-405f-84fc-e9cf4198bfed": {
+      "name": "#LeftPanicArea",
+      "controller_advice": "This is when the alerter left the panic area."
+    },
+    "0d5a3b8e-8e2c-4980-8abf-f91a6e4df4d4": {
+      "name": "#LoadShedding",
+      "controller_advice": "No electricity in the area due to Load shedding."
+    },
+    "2d9d9c9f-7b95-4005-ae78-6add316dd62a": {
+      "name": "#LongStandOff_30+",
+      "controller_advice": "This is when a responder is standing off with a client for more than 30min."
+    },
+    "b2feb38a-b1fa-4ecd-9a46-9c6029913bcd": {
+      "name": "#LossOfConsciousness",
+      "controller_advice": "Determine if the person is breathing and if there are any signs of life. If unresponsive and not breathing normally, guide the caller through initiating CPR until EMS arrives."
+    },
+    "ae43660a-00de-457d-9e15-c0fdcad477ff": {
+      "name": "#LostKey",
+      "controller_advice": "User has lost their car key: Dispatch a locksmith or roadside assistance service. Provide reassurance."
+    },
+    "3952910d-c6e0-4786-b1e7-9aa86854e520": {
+      "name": "#MaliciousPropertyDamage",
+      "controller_advice": "Malicious damage to property: Call Law enforcement"
+    },
+    "93dde6af-4f46-4426-bf0a-84329a6f8247": {
+      "name": "#ManualDispatch",
+      "controller_advice": "When CASI control room receives a call / panic, but the location differs. We need to get all the information for the manual dispatch."
+    },
+    "3cba7f10-d900-48d0-bcb7-ba21d2a8542b": {
+      "name": "#MechanicalFailure",
+      "controller_advice": "Breakdown due to engine trouble, battery failure, flat tire, etc.: Provide reassurance. Dispatch a roadside assistance service."
+    },
+    "19ce51b9-3894-4da5-97f4-f118964d34d8": {
+      "name": "#MedicalAlarm",
+      "controller_advice": "Contact the user to assess the situation. Notify medical services immediately if validation is positive."
+    },
+    "476707cc-0127-484d-b4d5-146f043944e1": {
+      "name": "#MentallyUnstable",
+      "controller_advice": "Extreme anxiety or paranoia. Delusions or hallucinations. Exhibiting aggressive or violent behavior. - Get SAPS and Medical assistance"
+    },
+    "f3d04689-8dbe-456b-b3e7-1ee1d12b7f4f": {
+      "name": "#MeterTaxiInterference",
+      "controller_advice": "Interference or disruption of an e-hailing service by a Meter Taxi.: Advise the alerter to prioritize their safety, remain inside the vehicle, and avoid confrontation."
+    },
+    "f61748af-188a-43cf-932c-7f408404830e": {
+      "name": "#MeterTaxiViolence",
+      "controller_advice": "Violent or aggressive behavior by a Meter Taxi towards the driver of the e-hailing service.: Advise the caller to prioritize their safety, remain inside the vehicle, and avoid confrontation."
+    },
+    "b60a520c-d60c-4cae-86c9-ec6ddd07938c": {
+      "name": "#MissingChild",
+      "controller_advice": "Missing child reported: Contact SAPS immediately. Dispatch all Partners in the Area. Escalate panic on CASI Control WhatsApp group. Keep user updated during the panic."
+    },
+    "05e99822-1b0f-4ed5-b28e-181196fef1c7": {
+      "name": "#MissingPerson",
+      "controller_advice": "Someone who has disappeared and whose status as alive or dead cannot be confirmed:Gather all necessary information about the missing person and their last known whereabouts. Inform them to report to local law enforcement immediately."
+    },
+    "9c317b13-b7c3-49b7-a773-e3f0ef0d7130": {
+      "name": "#MobJustice",
+      "controller_advice": "The #MobJustice tag describes community actions where crowds punish alleged wrongdoers often violently."
+    },
+    "61ea4c59-a7ea-4ebd-8dae-809f59f5248c": {
+      "name": "#Mugging",
+      "controller_advice": "Direct theft from a person in a public place, usually with physical force or threats:Advise the person to hand over belongings without resistance for their safety. Contact law enforcement."
+    },
+    "fb6b7cbc-c07d-43dc-95d3-caee178dc301": {
+      "name": "#Murder",
+      "controller_advice": "Unlawful killing of another person:Offer condolences, gather details, dispatch emergency services"
+    },
+    "58281675-7d94-4c43-99ee-abf86be677f8": {
+      "name": "#NetworkIssue",
+      "controller_advice": "The Partner experienced network issues"
+    },
+    "099854ef-81b2-4214-b921-f73f09393e8e": {
+      "name": "#NoAmbulanceAvailable",
+      "controller_advice": "The ambulance services are not available (Public / Private) Ask to be transported to the nearest hospital / clinic by friend, family members to get medical help."
+    },
+    "5eb954c8-fcc3-4ea2-8504-eede372869a7": {
+      "name": "#NoContactMade",
+      "controller_advice": "Controller or RO unable to make contact with the user: Phone Emergency contacts, if loaded. Update Dashboard with why the RO was unable to make contact with the user."
+    },
+    "f0fa802f-7434-472a-943f-adad5e20ee7d": {
+      "name": "#NoGoArea",
+      "controller_advice": "Responders do not respond to this area as it is deemed too dangerous.: Continue to dispatch SAPS and do everything in our power to respond."
+    },
+    "7347656c-81a7-4b6d-9f07-0cb85210c4e7": {
+      "name": "#NoInjury",
+      "controller_advice": "No need of any medical assistance due to no injuries reported."
+    },
+    "e1d8067e-9c72-4b2b-8f1c-50b02e088a38": {
+      "name": "#NonSecurityEmergency",
+      "controller_advice": "The #NonSecurityEmergency tag is for situations where an armed response partner is dispatched to support an ambulance or other public service in non-threatening circumstances."
+    },
+    "7da6852b-b56d-4764-996b-a77ee8e3e5a1": {
+      "name": "#NumberBusy",
+      "controller_advice": "Unable to make contact with the user."
+    },
+    "8b7145e2-146e-451b-b892-9536e2a96c13": {
+      "name": "#NumberDialedDNE",
+      "controller_advice": "The number of the alerter does not exist.: Call again, or try to call the other participants (ride / emergency contacts."
+    },
+    "605741ed-8c8f-477f-8deb-2ddd0373e75e": {
+      "name": "#OnCoverReceivedSMS",
+      "controller_advice": "User was added to a cover by his / her company and received an SMS to download the app."
+    },
+    "ce70d2ca-576d-4b48-8020-726faea924f0": {
+      "name": "#OrgCancellation",
+      "controller_advice": "Panic was canceled by the organisation that dispatched us."
+    },
+    "40302781-9c3a-4516-ac21-65cabccb6489": {
+      "name": "#OutOfFuel",
+      "controller_advice": "Dispatch a fuel delivery service."
+    },
+    "61facc74-abf1-425c-9d92-b2739ce6507d": {
+      "name": "#OutofProvince",
+      "controller_advice": "This tag is created specifically for Gauteng e-Panics which are created by users who are making panics outside of the province of Gauteng"
+    },
+    "302bbe94-9da0-4537-aabf-68ef762961e5": {
+      "name": "#OutOfTripUnreachableDriver",
+      "controller_advice": "The status of the ride is out-of-trip and the driver cannot be reached.: Escalate the panic if the vehicle is stationary in a commercial area. Resolve the panic if the vehicle is in a residential area."
+    },
+    "b427d011-8f41-4779-8264-8aee6c925bde": {
+      "name": "#Overdose",
+      "controller_advice": "Gather information about the substance(s) involved, the person's symptoms, and their level of consciousness. If they become unresponsive and are not breathing, guide the caller to initiate CPR until EMS arrives."
+    },
+    "49db1ca6-2a0d-4e0a-a4dc-0342085b2489": {
+      "name": "#PanicAlarm",
+      "controller_advice": "Contact the user to assess the situation. Dispatch a response team or notify law enforcement if needed."
+    },
+    "a4a1a2b8-2b1b-4651-b821-6092ed1c78d6": {
+      "name": "#PartnerTraining",
+      "controller_advice": "Dispatch Panic was created as a result of a new partner training to use the system. Ask the involved parties if the panic may be closed and provide assistance where required."
+    },
+    "f0895fe0-8b10-491d-b28a-32739adf404d": {
+      "name": "#PassphraseConfirmed",
+      "controller_advice": "Confirming the last four digits of a user's cellphone number or their passphrase is essential"
+    },
+    "f2bb3460-007d-4d08-bb5c-7b1a8584771c": {
+      "name": "#PatrolRequest",
+      "controller_advice": "Gather reasons for the patrol request. Evaluate the urgency and nature of the situation. Coordinate with law enforcement or security personnel to dispatch patrols to the requested area."
+    },
+    "d77ca78e-dfb4-40c8-9794-5244720f3432": {
+      "name": "#PayDispute",
+      "controller_advice": "A disagreement about the fare, tips, or other payment-related issues: Ensure both parties remain calm. Facilitate communication between parties and Bolt support if necessary."
+    },
+    "f8616ec4-27bf-4eb2-8009-61a5dc808a1b": {
+      "name": "#PedestrianBump",
+      "controller_advice": "The impact of a vehicle hitting a person can result in bone fractures - It depends on injuries to get Medical attention and SAPS out"
+    },
+    "5fad7beb-8c49-4ff2-a78a-e750a22d6d85": {
+      "name": "#PhysicalAssault",
+      "controller_advice": "Non-aggravated physical attack without a weapon: Keep the person calm, instruct them to find a safe place, do not engage. Contact law enforcement."
+    },
+    "03830150-c873-453a-91cf-f01018697723": {
+      "name": "#Poisoning",
+      "controller_advice": "Ask the caller about the type of substance involved and the person's symptoms. Advise against inducing vomiting unless directed by medical professionals. Dispatch EMS for evaluation and to provide appropriate treatment."
+    },
+    "8b39c633-0cd3-4d30-871c-efa9c5055c4c": {
+      "name": "#PotholeDamage",
+      "controller_advice": "Ensure the user's safety. Arrange for vehicle repair or tow service as necessary."
+    },
+    "6f4ea62c-8dfe-4118-9691-a7f74b9bc0ae": {
+      "name": "#PowerOutageAlarm",
+      "controller_advice": "Validate the alarm. Contact the user if possible. Coordinate with the service provider to address the issue."
+    },
+    "fdabd196-3754-46ff-a901-4619d86fe3cd": {
+      "name": "#Pregnant",
+      "controller_advice": "A full-term pregnancy has three trimesters and lasts around 40 weeks. Medical services required"
+    },
+    "531295c3-7254-437a-9cbd-c4fb91b5a645": {
+      "name": "#PublicViolence",
+      "controller_advice": "Public disturbance often involving destruction and disorder:Leave the area if safe, avoid crowds, do not engage in the violence. Contact law enforcement."
+    },
+    "93149e1e-bb8c-45b0-ab0e-17c0ee88c43f": {
+      "name": "#RansomExtortion",
+      "controller_advice": "Demanding money or valuable goods under threats, often for releasing kidnapped victims:Stay calm. Do not negotiate on your own. Gather as much information as possible. Contact law enforcement immediately."
+    },
+    "f049588c-d7f0-42aa-b9cc-3bf0c40da922": {
+      "name": "#Rape",
+      "controller_advice": "Penetration without the consent of the victim: Keep the client calm, Urge the client to reach out to local authorities and undergo a rape kit, Call law enforcement"
+    },
+    "ae425c69-e663-4214-b082-142d0d2e71e6": {
+      "name": "#RedZone",
+      "controller_advice": "Dangerous Area causing delays in the response due to high risk"
+    },
+    "ee0bdf88-d8b1-4a2f-9f5f-0b6363ae15f6": {
+      "name": "#RiderAttemptingRobbery",
+      "controller_advice": "Advise the driver to prioritize their safety, remain calm, and avoid escalating the situation. Recommend reporting the incident to southafrica@bolt.eu or through the e-hailing app and dispatch SAPS immediately."
+    },
+    "94dc1dca-09cb-483c-9842-f6c9749e3078": {
+      "name": "#RiderFeelingUnsafe",
+      "controller_advice": "The rider feels unsafe or threatened during the ride: Advise the rider to prioritize their safety, communicate their concerns to the driver (if comfortable), and request an immediate stop at a safe location if needed."
+    },
+    "7b9c3441-2b31-4c64-89cd-12fb2acc1221": {
+      "name": "#RiderIssue",
+      "controller_advice": "When a driver experiences problems with the rider under the influence / not paying his ride / verbal disputes."
+    },
+    "6470005f-8f50-4e9d-ba46-36a2f6729aca": {
+      "name": "#RoadsideSecurity",
+      "controller_advice": "Advise caller to prioritize safety, move to a safe location, and stay inside their vehicle if necessary. Dispatch appropriate assistance."
+    },
+    "ed9181fa-90d9-4ea0-b291-d313c298d8d9": {
+      "name": "#ROContactMade",
+      "controller_advice": "RO made contact with the alerter.: Remember to call the alerter to verify his/her safety before resolving."
+    },
+    "35fa9ecb-503c-4624-8b1e-483fe3aeb80b": {
+      "name": "#RONoContactMade",
+      "controller_advice": "RO arrived but could not make contact with the alerter.: Help the RO to make contact with the alerter by calling emergency contacts and relating Home/ Work Access details. Make sure that the RO is at the correct location."
+    },
+    "65216b41-98c2-4711-983a-4e94f32545ed": {
+      "name": "#SAPSArrived",
+      "controller_advice": "SAPS arrived at the panic location"
+    },
+    "8b07d772-fe23-450d-b922-37c3d6dc2d10": {
+      "name": "#SAPSCase",
+      "controller_advice": "Reference to a case handled by the South African Police Service: Gather details and assess the case. Remember to log the case number/ reference number in comments"
+    },
+    "d154a382-2281-470f-a192-2c2ddbfe8236": {
+      "name": "#SAPSNoArrival",
+      "controller_advice": "SAPS did not arrived at the panic location nor did they provide any assistance. Escalate to management."
+    },
+    "63dd1b9b-338f-42b7-af29-acb3eb306904": {
+      "name": "#SeismicSensorAlarm",
+      "controller_advice": "Validate the alarm. Contact the user if possible. Dispatch a response team or notify law enforcement if needed."
+    },
+    "8ec869c6-2183-410c-94fb-6242d255b606": {
+      "name": "#Seizure",
+      "controller_advice": "Guide the caller to clear the area around the person to prevent injury. Instruct the caller to time the seizure, stay on the line, and provide reassurance. Once the seizure ends, advise them to place the person in a safe position."
+    },
+    "24b75375-4bad-48dd-8717-11212efce82f": {
+      "name": "#SelfAssisted",
+      "controller_advice": "This tag is to be used when a client cancels due to them managing to get help or assist themselves before we can."
+    },
+    "7b35f22d-3d7b-4dc4-8cec-4c7af2b48d06": {
+      "name": "#SexualOffence",
+      "controller_advice": "Any type of sexual contact or behavior without the explicit consent of the recipient.:Get to safety and preserve any evidence. Express empathy. Contact law enforcement and a crisis center."
+    },
+    "537236b0-1b5f-436d-9cba-7aa7cfdbf252": {
+      "name": "#Shooting",
+      "controller_advice": "Firing a gun, either intentionally or accidentally:Instruct the person to take cover, avoid the area. Remember as much detail as possible. Contact law enforcement."
+    },
+    "bc0cb42b-69bf-4e65-ab98-8b2c61d5f022": {
+      "name": "#Shoplifting",
+      "controller_advice": "Theft of merchandise from a retail establishment:Gather information, advise caller to avoid confrontation"
+    },
+    "d8d1386f-d420-4307-ad60-6b320bb867db": {
+      "name": "#Sick",
+      "controller_advice": "Affected with disease or illness; ailing - Seek medical attention"
+    },
+    "2343687a-54b3-43d4-95ad-09e2466e5c8e": {
+      "name": "#SocialMedia",
+      "controller_advice": "Client heard of CASI through social media"
+    },
+    "ef98b3f9-1460-4234-a6b1-dda55063de31": {
+      "name": "#Stabbing",
+      "controller_advice": "Violent act in which a person uses a pointed object to pierce or puncture someone. Can cause serious injury or death, especially if vital organs are hit."
+    },
+    "ff0c6128-eef9-4969-8676-3e05c9e7ec9d": {
+      "name": "#StockTheft",
+      "controller_advice": "Illegal taking of livestock or agricultural produce:Collect details, advise securing the area, dispatch authorities"
+    },
+    "3a83a4a7-eb76-49e0-a535-08e7b4b83b72": {
+      "name": "#Stranded",
+      "controller_advice": "The user is unable to proceed due to environmental conditions or other unforeseen circumstances: Provide reassurance. Arrange for tow service, emergency services, or other help as appropriate."
+    },
+    "8662ea62-6129-4951-b253-96a7a6e8dd26": {
+      "name": "#Stroke",
+      "controller_advice": "Use the FAST acronym to assess the situation: Face drooping, Arm weakness, Speech difficulties, and Time to call emergency services. Instruct the caller to note the time the symptoms started."
+    },
+    "fd0bcf1a-cd90-4940-88bc-71d8fdac1c04": {
+      "name": "#Suicide",
+      "controller_advice": "Notify SAPS. Get a ref number. Dispatched medical services to the location to declare person P4 (Deceased). Notify CASI Managers."
+    },
+    "8e44da57-8e60-494f-bede-c0f2c7e819ae": {
+      "name": "#SuspectArrest",
+      "controller_advice": "Apprehension or detention of a person believed to have committed a crime:Gather information, document details, inform authorities"
+    },
+    "7989b73d-6145-435f-99cb-3add4575ba6f": {
+      "name": "#SuspectedRevenge",
+      "controller_advice": "Belief that someone is seeking retaliation or retribution:Gather information, advise caller to prioritize safety, involve authorities"
+    },
+    "59c573ed-93a0-40fd-99f3-978222e2bf4d": {
+      "name": "#SuspiciousHumanActivity",
+      "controller_advice": "Behaviors or actions that raise concerns about possible criminal intent:Gather details, advise caller to stay safe, notify authorities"
+    },
+    "0fd19ee6-bdb9-4f89-bfe2-2e8428bc0e45": {
+      "name": "#SuspiciousVehicle",
+      "controller_advice": "Vehicle that raises suspicions due to its appearance or behavior:Gather details, advise caller to stay safe, report to authorities"
+    },
+    "ac9e0055-deda-42cc-83d9-be1bfb8315ed": {
+      "name": "#SystemMalfunctionAlarm",
+      "controller_advice": "Validate the alarm. Contact the user if possible. Coordinate with the service provider to address the issue."
+    },
+    "b5c5eb25-6536-4eee-a972-8b3cb591b20b": {
+      "name": "#TaxiInterference",
+      "controller_advice": "Interference or disruption of an e-hailing service by the Taxi Association.: Advise the alerter to prioritize their safety, remain inside the vehicle, and avoid confrontation."
+    },
+    "69a910ba-bf3b-4f19-b812-1b98cb619d61": {
+      "name": "#TaxiViolence",
+      "controller_advice": "Violent or aggressive behavior by the Taxi Association towards the driver of the e-hailing service.: Advise the caller to prioritize their safety, remain inside the vehicle, and avoid confrontation."
+    },
+    "64f87116-c98c-471f-ac70-9d6766e2f757": {
+      "name": "#TechnicalIssue",
+      "controller_advice": "RO experienced a technical issue, ie. dashboard or app tech issue.: Help our partner if possible, else notify management on the Whatsapp group."
+    },
+    "ca1745da-d91b-40ec-90d0-6b0d010eb6ac": {
+      "name": "#Theft",
+      "controller_advice": "This is a general tag for incidents where the property of a victim is taken without their permission with the intent to permanently deprive them of it."
+    },
+    "e3b3f8a8-8bbb-4aab-95da-e0e725c1a145": {
+      "name": "#TheftOutOfMotorVehicle",
+      "controller_advice": "Theft from a motor vehicle:Gather information, advise reporting to police, secure evidence"
+    },
+    "6584545c-1fa3-44e2-aa22-d08dbce7e71d": {
+      "name": "#ThirdPartyRequest",
+      "controller_advice": "Use this tag when the person triggering the panic is requesting assistance for someone else or is at a different location from where they are using the ePanic app."
+    },
+    "4528eb3c-e238-4c7b-b265-75c1558d3b2f": {
+      "name": "#Trespassing",
+      "controller_advice": "Unauthorized entry onto someone else's property:Gather information, advise caller to secure themselves, inform authorities"
+    },
+    "7fb8c5cb-a72e-46f6-ac38-55255a36cf27": {
+      "name": "#UnforcedEntryHouseRobbery",
+      "controller_advice": "Unauthorized entry (without force) into a residential property with intent to commit a crime.:Advise person not to touch anything to preserve evidence. Call law enforcement."
+    },
+    "f677fff8-65d6-40e7-9246-6c0438d5f980": {
+      "name": "#Unresponsive",
+      "controller_advice": "When a user is unresponsive: Depending on the situation Ambulance should be dispatch ASAP."
+    },
+    "310d94e4-13ae-4123-b246-faa466e1a78c": {
+      "name": "#UserCancellation",
+      "controller_advice": "Panic was canceled by the user.: Remember to first confirm the user's security code or last four digits of his/her cellphone number before cancelling armed response."
+    },
+    "3d561f72-f193-4999-a316-46adc1e2e6b9": {
+      "name": "#UserNotFound",
+      "controller_advice": "Use Tag for when the user cannot be found on scene by the RO"
+    },
+    "606a7d29-51ca-40ee-b29b-1476e123f696": {
+      "name": "#UserTesting",
+      "controller_advice": "The user tested the panic button. Resolve the panic once the user has confirmed his security code or last four digits."
+    },
+    "98349d2f-7034-4884-901c-62020dfccbfc": {
+      "name": "#Vandalism",
+      "controller_advice": "Action involving deliberate destruction of or damage to public or private property:Prioritize safety and respond swiftly. Contact authorities, use security tools for evidence, and cooperate with investigators for a quick resolution."
+    },
+    "3e85accc-dc19-4dab-a680-684cf33b6015": {
+      "name": "#VehicleAccident",
+      "controller_advice": "1. Check yourself for injuries. If you're injured, call medical services. 2. Check on the well-being of your passengers 3. Get to safety 4. Wait for help 5. Exchange information 6. Get necessary paperwork/documentation/ref#"
+    },
+    "860366c0-b219-42e2-8728-e311bd4aba00": {
+      "name": "#VehicleCollision",
+      "controller_advice": "1. Stop your car and stay on the scene. Switch on your hazards to warn other drivers. 2. Help anyone who has been hurt. 3. Get the details. 4. Report the accident."
+    },
+    "9d402fdf-5159-445d-ae68-6ebc53c0935c": {
+      "name": "#VehicleGoingOffRoute",
+      "controller_advice": "The e-hailing vehicle deviates from the intended route or designated area.: Advise the alerter to prioritize their safety, remain calm, and avoid confrontation."
+    },
+    "95000d71-1d06-4b54-8408-78cb85570035": {
+      "name": "#VehicleTheft",
+      "controller_advice": "Unlawful taking of another person's vehicle:Confirm the vehicle has been stolen, gather vehicle information. Contact law enforcement."
+    },
+    "f17793a7-92a9-48a3-9ec3-63d2e94c03f4": {
+      "name": "#VerbalThreat",
+      "controller_advice": "Threat delivered through spoken words, either in person or over the phone:Advise the person to take threats seriously, document all instances, and contact law enforcement."
+    },
+    "fa914fef-9a51-4c5c-8851-e9d88c30aa4c": {
+      "name": "#Voicemail",
+      "controller_advice": "Alerter call is directed to a voicemail/ mailbox.: Call again, or try to call the other participants (ride) or emergency contacts."
+    },
+    "330b604b-02a0-4695-a86b-c6fddeeccc5d": {
+      "name": "#WhatsApp",
+      "controller_advice": "Client heard of CASI through WhatsApp marketing message."
+    },
+    "81768bc4-5528-485a-b381-1472290bde6c": {
+      "name": "#WordOfMouth",
+      "controller_advice": "Client heard of CASI through word of mouth"
+    },
+    "f840faf7-8b1d-497f-96d1-f36595d29133": {
+      "name": "#WrittenThreat",
+      "controller_advice": "Threat delivered through written words, either physically or digitally:Advise the person to take threats seriously, preserve the evidence, and contact law enforcement."
+    },
+    "3a2b49fe-e0a4-4bb2-8a27-32e594b2002a": {
+      "name": "#WrongDriver",
+      "controller_advice": "The driver who arrived is not the one shown in the app: Advise the user not to take the ride. Notify Bolt support at southafrica@bolt.eu."
+    },
+    "965895da-a13b-4151-b273-ae01016792d5": {
+      "name": "#WrongVehicle",
+      "controller_advice": "The vehicle that arrived is not the one shown in the app: Advise the user not to take the ride. Notify Bolt support at southafrica@bolt.eu."
+    },
+    "546f3b6c-384b-4023-a879-59330abfd968": {
+      "name": "#ZoneViolation",
+      "controller_advice": "Obtain the specific details of the zone violation, including the location and any suspicious activity observed. Instruct the caller to prioritize their own safety and avoid confronting the individual(s) directly. Notify the appropriate authorities or security personnel to respond and address the situation."
+    }
+  }
+}
