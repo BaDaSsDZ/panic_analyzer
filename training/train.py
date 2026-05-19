@@ -39,6 +39,7 @@ EPOCHS         = int(os.getenv("EPOCHS", 5))
 LR             = float(os.getenv("LEARNING_RATE", 2e-5))
 MAX_SEQ_LEN    = int(os.getenv("MAX_SEQ_LENGTH", 512))
 THRESHOLD      = float(os.getenv("CONFIDENCE_THRESHOLD", 0.4))
+EVAL_THRESHOLD = float(os.getenv("EVAL_THRESHOLD", 0.3))  # lower threshold for val F1 during training
 
 
 def get_device():
@@ -156,7 +157,7 @@ def main():
             progress.set_postfix(loss=f"{loss.item():.4f}")
 
         avg_loss = total_loss / len(train_loader)
-        metrics = evaluate(model, val_loader, device)
+        metrics = evaluate(model, val_loader, device, threshold=EVAL_THRESHOLD)
 
         log.info(
             "Epoch %d/%d  loss=%.4f  macro_f1=%.4f  micro_f1=%.4f  prec=%.4f  rec=%.4f",
@@ -186,6 +187,25 @@ def main():
             with open(MODEL_SAVE_DIR / "training_meta.json", "w") as f:
                 json.dump(meta, f, indent=2)
             log.info("  *** New best — saved checkpoint (macro_f1=%.4f) ***", best_f1)
+
+    if best_epoch == 0:
+        # F1 never improved above 0 — save the final epoch so the model file exists
+        log.warning("Val F1 never exceeded 0 — saving final epoch as fallback checkpoint")
+        model.save_pretrained(MODEL_SAVE_DIR)
+        tokenizer.save_pretrained(MODEL_SAVE_DIR)
+        meta = {
+            "best_epoch":     EPOCHS,
+            "best_macro_f1":  0.0,
+            "num_labels":     num_labels,
+            "threshold":      THRESHOLD,
+            "base_model":     BASE_MODEL,
+            "epochs_trained": EPOCHS,
+            "batch_size":     BATCH_SIZE,
+            "learning_rate":  LR,
+            "max_seq_length": MAX_SEQ_LEN,
+        }
+        with open(MODEL_SAVE_DIR / "training_meta.json", "w") as f:
+            json.dump(meta, f, indent=2)
 
     log.info("Training complete. Best epoch: %d  Best macro-F1: %.4f", best_epoch, best_f1)
     log.info("Model saved to: %s", MODEL_SAVE_DIR)
