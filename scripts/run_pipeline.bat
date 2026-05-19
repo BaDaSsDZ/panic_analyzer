@@ -5,9 +5,10 @@ REM Run this once to extract data, preprocess, and train the model.
 echo === CASI AI Training Pipeline ===
 echo.
 
-echo [1/3] Extracting labeled data from database...
-python -m data.extract
-if errorlevel 1 goto error
+REM echo [1/3] Extracting labeled data from database...
+REM python -m data.extract
+REM if errorlevel 1 goto error
+echo [1/3] Skipping extract - using existing data/output/labeled_panics.csv
 
 echo.
 echo [2/3] Preprocessing and building training splits...
