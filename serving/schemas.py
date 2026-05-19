@@ -15,9 +15,12 @@ class TagSuggestion(BaseModel):
 
 class TagRequest(BaseModel):
     panic_id: int
-    # Optional: for active incident mode — pass partial data already assembled
-    # If not provided, the API fetches from DB using panic_id
     mode: Optional[str] = "completed"  # "completed" | "active"
+
+
+class TextRequest(BaseModel):
+    text: str
+    threshold: Optional[float] = None  # override default confidence threshold
 
 
 class TagResponse(BaseModel):

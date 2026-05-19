@@ -118,6 +118,7 @@ def main():
 
     log.info("Loading DistilBERT...")
     config = DistilBertConfig.from_pretrained(BASE_MODEL)
+    config.num_labels = num_labels
     model = PanicTagClassifier.from_pretrained(BASE_MODEL, config=config, num_labels=num_labels)
     model.to(device)
 

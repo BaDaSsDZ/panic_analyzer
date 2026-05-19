@@ -19,6 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from serving.schemas import (
     TagRequest, TagResponse, TagSuggestion,
+    TextRequest,
     FeedbackRequest, FeedbackResponse,
     HealthResponse,
 )
@@ -121,6 +122,35 @@ def predict(request: TagRequest, _key: str = Security(verify_api_key)):
         suggestions=suggestions,
         model_version=predictor.model_version,
         threshold_used=predictor.threshold,
+    )
+
+
+@app.post("/predict-text", response_model=TagResponse)
+def predict_text(request: TextRequest, _key: str = Security(verify_api_key)):
+    """
+    Suggest tags from raw assembled text — no DB lookup required.
+    Useful for testing without a DB connection.
+
+    Pass the same format the model was trained on:
+    [META] ... [LOGS] ... [COMMENTS] ... [FORM] ...
+    """
+    predictor = get_predictor(MODEL_SAVE_DIR)
+
+    if not request.text.strip():
+        raise HTTPException(status_code=422, detail="text must not be empty")
+
+    threshold = request.threshold if request.threshold is not None else predictor.threshold
+    suggestions_raw = predictor.predict(request.text, threshold=threshold)
+    suggestions = [TagSuggestion(**s) for s in suggestions_raw]
+
+    log.info("predict-text: %d tags suggested (threshold=%.2f)", len(suggestions), threshold)
+
+    return TagResponse(
+        panic_id=0,
+        mode="text",
+        suggestions=suggestions,
+        model_version=predictor.model_version,
+        threshold_used=threshold,
     )
 
 

@@ -13,12 +13,15 @@ class PanicTagClassifier(DistilBertPreTrainedModel):
     Outputs one probability per tag (multi-label, not mutually exclusive).
     """
 
-    def __init__(self, config, num_labels):
+    def __init__(self, config, num_labels=None):
         super().__init__(config)
-        self.num_labels = num_labels
+        # num_labels stored in config so from_pretrained can restore it without extra args
+        if num_labels is not None:
+            config.num_labels = num_labels
+        self.num_labels = config.num_labels
         self.distilbert = DistilBertModel(config)
         self.dropout = nn.Dropout(p=0.3)
-        self.classifier = nn.Linear(config.hidden_size, num_labels)
+        self.classifier = nn.Linear(config.hidden_size, self.num_labels)
         self.post_init()
 
     def forward(self, input_ids, attention_mask, labels=None):
