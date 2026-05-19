@@ -123,12 +123,16 @@ def main():
     model.to(device)
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=LR, weight_decay=0.01)
-    scheduler = torch.optim.lr_scheduler.OneCycleLR(
-        optimizer,
-        max_lr=LR,
-        steps_per_epoch=len(train_loader),
-        epochs=EPOCHS,
-        pct_start=0.1,
+    total_steps = len(train_loader) * EPOCHS
+    scheduler = (
+        torch.optim.lr_scheduler.OneCycleLR(
+            optimizer,
+            max_lr=LR,
+            total_steps=total_steps,
+            pct_start=max(0.1, 1 / total_steps) if total_steps > 1 else 0.1,
+        )
+        if total_steps > 1
+        else torch.optim.lr_scheduler.ConstantLR(optimizer, factor=1.0)
     )
 
     best_f1 = 0.0
